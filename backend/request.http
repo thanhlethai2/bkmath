@@ -1,0 +1,25 @@
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+
+{
+    "name": "647v6472836v48",
+    "user_id": 36,
+    "course_id": 7
+}
+
+###
+
+GET http://localhost:8000/api/courses
+
+###
+
+PUT http://localhost:8000/api/courses/8
+Content-Type: application/json
+
+{
+    "content": "fghas fghs hgfshf gfsa  fhd saghf hgfash"
+}
+
+###
+
+DELETE http://localhost:8000/api/posts/4
