@@ -1,23 +1,23 @@
-POST http://localhost:8000/api/posts
+POST http://localhost:8000/api/courses
 Content-Type: application/json
 
 {
-    "name": "647v6472836v48",
-    "user_id": 36,
-    "course_id": 7
+    "name": "Probability",
+    "code": "MT1021",
+    "content": "abcd"
 }
 
 ###
 
-GET http://localhost:8000/api/courses
+GET http://localhost:8000/api/users
 
 ###
 
-PUT http://localhost:8000/api/courses/8
+PUT http://localhost:8000/api/users/40
 Content-Type: application/json
 
 {
-    "content": "fghas fghs hgfshf gfsa  fhd saghf hgfash"
+    "image": "user-3.jpg"
 }
 
 ###
