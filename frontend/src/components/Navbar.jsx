@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { FaBars } from "react-icons/fa6";
 import { FaTimes } from 'react-icons/fa';
 import Modal from './Modal';
-import logo from '../assets/images/logo.png'
+// import logo from '../assets/images/logo.png'
 
 const Navbar = () => {
 
@@ -32,7 +32,7 @@ const Navbar = () => {
         <header className='bg-gray-900 text-white fixed top-0 left-0 right-0'>
             <nav className='px-4 py-4 max-w-7xl mx-0 mx-auto flex justify-between items-center'>
                 <a href='/' className='text-xl font-bold flex'>
-                    <img src={logo} alt="Logo" className='w-6 h-6 mr-1' />
+                    {/* <img src={logo} alt="Logo" className='w-6 h-6 mr-1' /> */}
                     <span className='text-orange-500'>BK</span>-
                     <span className='text-cyan-500'>Math</span>
                 </a>

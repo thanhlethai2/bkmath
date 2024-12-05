@@ -8,34 +8,34 @@ const Footer = () => {
                 <div className='grid mb-8 lg:grid-cols-6'>
                     <div className='grid grid-cols-2 gap-5 lg:col-span-4 md:grid-cols-4'>
                         <div>
-                            <p className='font-medium tracking-wide text-gray-300'>Category</p>
+                            <p className='font-medium tracking-wide text-gray-300'>Calculus</p>
                             <ul className='mt-2 space-y-2'>
                                 <li>
-                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>News</a>
+                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Calculuc I</a>
                                 </li>
                                 <li>
-                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>World</a>
+                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Calculus II</a>
                                 </li>
                                 <li>
-                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Games</a>
+                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Calculus for Business</a>
                                 </li>
                                 <li>
-                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>References</a>
+                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Calculus for VP</a>
                                 </li>
                             </ul>
                         </div>
 
                         {/* categories 2 */}
                         <div>
-                            <p className='font-medium tracking-wide text-gray-300'>Apple</p>
+                            <p className='font-medium tracking-wide text-gray-300'>Algebra</p>
                             <ul className='mt-2 space-y-2'>
                                 <li>
-                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Web</a>
+                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Algebra</a>
                                 </li>
                                 <li>
-                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>eCommerce</a>
+                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Applied Algebra</a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Business</a>
                                 </li>
                                 <li>
@@ -43,49 +43,49 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Portfolio</a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
 
                         <div>
-                            <p className='font-medium tracking-wide text-gray-300'>Cherry</p>
+                            <p className='font-medium tracking-wide text-gray-300'>Numerical Methods</p>
                             <ul className='mt-2 space-y-2'>
                                 <li>
-                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Media</a>
+                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Numerical Methods</a>
                                 </li>
                                 <li>
-                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Brochure</a>
+                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Partial Differential Equations</a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Nonprofit</a>
-                                </li>
-                                <li>
+                                </li> */}
+                                {/* <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Education</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Projects</a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
 
                         <div>
-                            <p className='font-medium tracking-wide text-gray-300'>Business</p>
+                            <p className='font-medium tracking-wide text-gray-300'>Probability & Statistics</p>
                             <ul className='mt-2 space-y-2'>
                                 <li>
-                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Infopreneur</a>
+                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Probability</a>
                                 </li>
                                 <li>
-                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Personal</a>
+                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Statistics</a>
                                 </li>
                                 <li>
-                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Wiki</a>
+                                    <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Probability & Statistics</a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Forum</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300 hover:text-orange-500'>Projects</a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row'>
-                    <p className='text-gray-500 text-sm'>&copy;&nbsp;Copyright 2024 | All right reserved.</p>
+                    <p className='text-gray-500 text-sm'>&copy;&nbsp;Copyright by Le Thai Thanh 2025 | All right reserved.</p>
                     <div className='flex items-center mt-4 space-x-4 sm:mt-0'>
                         {/* <a href="" className='text-gray-500 transition-all duration-300 hover:text-orange-500'><FaTwitter className='h-6 w-6'/></a>
                         <a href="" className='text-gray-500 transition-all duration-300 hover:text-orange-500'><FaInstagram className='h-6 w-6'/></a>

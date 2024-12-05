@@ -9,6 +9,8 @@ import App from './App.jsx'
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
+import TeacherInfo from './pages/TeacherInfo.jsx';
+import CourseInfo from './pages/CourseInfo.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,7 +28,15 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />
-      },      
+      },
+      {
+        path: "/teachers/:id",
+        element: <TeacherInfo />,
+      },
+      {
+        path: "/courses/:id",
+        element: <CourseInfo />,
+      },
     ]
   }
 ])
